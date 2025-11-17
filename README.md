@@ -29,7 +29,7 @@ That's all there is to it. It's not much different from the process of accessing
 
 ## Time
 
-If the measured value is expected to have a timestamp, then it's necessary to somehow obtain the local time corresponding to the moment of measurement.
+If the measured value is expected to have a timestamp, then it's necessary to somehow obtain the local time corresponding to the moment of measurement. I took advantage of the ability to use NTP (Network Time Protocol) to synchronize the clocks of computers & µcontrollers over a network: https://docs.toit.io/tutorials/misc/date-time.
 
 ## Saving data to the cloud
 
