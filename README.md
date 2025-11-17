@@ -31,7 +31,7 @@ That's all there is to it. It's not much different from the process of accessing
 
 If the measured value is expected to have a timestamp, then it's necessary to somehow obtain the local time corresponding to the moment of measurement. I took advantage of the ability to use NTP (Network Time Protocol) to synchronize the clocks of computers & µcontrollers over a network: https://docs.toit.io/tutorials/misc/date-time.
 
-> This essentially concludes the description of the __r998372__ application. Below is a monitor log for two __ESP32 S3__ chips: the __ESP32 S3 WROOM-N16R8__ with 44 pins and __ESP32 S3 super-mini__ variants. Oddly enough, there's no significant difference, although I thought the mini was less reliable. It's worth noting the __ca = connect__ attempts parameter, which indicates the number of connection attempts to the device before performing a measurement. It's clear that this number is roughly the same for both chip variants.
+> This essentially concludes the description of the __r998372__ application. Below is a monitor log for two __ESP32 S3__ chips: the __ESP32 S3 WROOM-N16R8__ with 44 pins and __ESP32 S3 ZERO-M__ variants. Oddly enough, there's no significant difference, although I thought the mini was less reliable. It's worth noting the __ca = connect__ attempts parameter, which indicates the number of connection attempts to the device before performing a measurement. It's clear that this number is roughly the same for both chip variants.
 
 * __ESP32 S3 WROOM-N16R8__ log
   
@@ -49,7 +49,7 @@ Set time to 2025-11-16T08:27:14.153054Z by adjusting 489800h26m21.814105391s
 Timer has been delete
 [jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b stopped
 ```
-* __ESP32 S3 super-mini__ log
+* __ESP32 S3 ZERO-M__ log
 ```
 [jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b started
 We already know the time is 2025-11-16T09:30:21.776579Z
