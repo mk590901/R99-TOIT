@@ -1,0 +1,21 @@
+sdk: ^2.0.0-alpha.170
+prefixes:
+  certificate-roots: toit-cert-roots
+  http: pkg-http
+  ntp: pkg-ntp
+packages:
+  pkg-http:
+    url: github.com/toitlang/pkg-http
+    name: http
+    version: 2.11.0
+    hash: d2cdc57270eaafe8df8d8403bf4ebf95415aa0fd
+  pkg-ntp:
+    url: github.com/toitlang/pkg-ntp
+    name: ntp
+    version: 1.1.0
+    hash: e69bb1abc0d3d4aa7642eec3360e52744e4d011d
+  toit-cert-roots:
+    url: github.com/toitware/toit-cert-roots
+    name: certificate-roots
+    version: 1.11.0
+    hash: c117dbba4757d7c69e91af7a875ab6989f051a33
