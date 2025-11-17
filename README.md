@@ -12,7 +12,7 @@ The device I'm trying to access via __BLE__ is a very inexpensive Chinese __smar
 
 The main application module is the __r998372.toit__ file. The following it's components are worth noting:
 
-> Class MeasurementHR_R998372 with a public __measure_ function, which allows you to measure and read the __heart rate__ and a result field: a map (hash table) containing the measurement result.
+> Class MeasurementHR_R998372 with a public __measure__ function, which allows you to measure and read the __heart rate__ and a __result__ field: a map (hash table) containing the measurement result.
 
 > The functions of this class that support the measurement process are listed below:
 
