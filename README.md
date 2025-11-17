@@ -8,6 +8,31 @@ The device I'm trying to access via __BLE__ is a very inexpensive Chinese __smar
 
 <img width="1204" height="1600" alt="r99" src="https://github.com/user-attachments/assets/70205bae-a4fc-4d7e-ac14-2f2d0ab583e6" />
 
+## Brief description
+
+The main application module is the __r998372.toit__ file. The following it's components are worth noting:
+
+> Class MeasurementHR_R998372 with a public __measure_ function, which allows you to measure and read the __heart rate__ and a result field: a map (hash table) containing the measurement result.
+
+> The functions of this class that support the measurement process are listed below:
+
+* __find_and_connect__ - searches for a device using the function
+* __find-with-service__, which scans BLE nearby devices and, if successful, returns a __ble.RemoteScannedDevice object.
+
+> Next, an attempt is made to connect to the found device and measure the __heart_rate__ using the function
+
+* __connect_device__
+
+> __Note__: access to __heart_rate__ is by subscription, not by reading.
+
+That's all there is to it. It's not much different from the process of accessing __BLE__ devices in __Android__ apps using packages like __flutter_reactive_ble__. It's just a bit simpler.
+
+## Time
+
+If the measured value is expected to have a timestamp, then it's necessary to somehow obtain the local time corresponding to the moment of measurement.
+
+## Saving data to the cloud
+
 
 
 
