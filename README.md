@@ -31,6 +31,36 @@ That's all there is to it. It's not much different from the process of accessing
 
 If the measured value is expected to have a timestamp, then it's necessary to somehow obtain the local time corresponding to the moment of measurement. I took advantage of the ability to use NTP (Network Time Protocol) to synchronize the clocks of computers & µcontrollers over a network: https://docs.toit.io/tutorials/misc/date-time.
 
+
+```
+[jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b started
+Set time to 2025-11-16T08:27:14.153054Z by adjusting 489800h26m21.814105391s
+08:27:21.494: [1] : [{"rssi":-81,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:27:21.486","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":1}]
+08:28:31.335: [2] : [{"rssi":-79,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:28:31.330","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":2}]
+08:29:37.083: [3] : [{"rssi":-77,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:29:37.077","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":2}]
+08:30:44.110: [4] : [{"rssi":-79,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:30:44.102","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":1}]
+08:31:52.330: [5] : [{"rssi":-79,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:31:52.322","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":2}]
+08:32:58.269: [6] : [{"rssi":-78,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 08:32:58.263","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":2}]
+08:34:05.270: [7] : [{"rssi":-76,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:34:05.263","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":1}]
+08:35:17.118: [8] : [{"rssi":-76,"device":"R99 8372","heart rate":79,"units":"bpm","time":"2025/11/16 08:35:17.111","sensor":"b45310f9-5107-5db1-8c61-c3b37e7188ca","fa":1,"ca":4}]
+Timer has been delete
+[jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b stopped
+```
+```
+[jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b started
+We already know the time is 2025-11-16T09:30:21.776579Z
+09:30:28.360: [1] : [{"rssi":-79,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:30:28.354","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":2}]
+09:31:38.205: [2] : [{"rssi":-79,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:31:38.201","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":3}]
+09:32:45.975: [3] : [{"rssi":-77,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:32:45.971","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":1}]
+09:33:48.765: [4] : [{"rssi":-77,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:33:48.762","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":1}]
+09:34:53.485: [5] : [{"rssi":-77,"device":"R99 8372","heart rate":77,"units":"bpm","time":"2025/11/16 09:34:53.480","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":1}]
+09:36:05.355: [6] : [{"rssi":-79,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:36:05.351","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":2}]
+09:37:08.025: [7] : [{"rssi":-77,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:37:08.020","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":1}]
+09:38:13.254: [8] : [{"rssi":-77,"device":"R99 8372","heart rate":78,"units":"bpm","time":"2025/11/16 09:38:13.250","sensor":"a3fb9ac6-4c3a-5bc8-a583-28a0e375fd8f","fa":1,"ca":1}]
+Timer has been delete
+[jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b stopped
+```
+
 ## Saving data to the cloud
 
 
