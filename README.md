@@ -17,7 +17,7 @@ The main application module is the __r998372.toit__ file. The following it's com
 > The functions of this class that support the measurement process are listed below:
 
 * __find_and_connect__ - searches for a device using the function
-* __find-with-service__, which scans BLE nearby devices and, if successful, returns a __ble.RemoteScannedDevice object.
+* __find-with-service__, which scans BLE nearby devices and, if successful, returns a __ble.RemoteScannedDevice__ object.
 
 > Next, an attempt is made to connect to the found device and measure the __heart_rate__ using the function
 
