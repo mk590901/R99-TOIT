@@ -67,6 +67,13 @@ Timer has been delete
 
 ## Saving data to the cloud
 
+A few notes about the __r998372db.toit__ app. It's essentially a clone of the __r998372.toit__ app, augmented with the feature of storing measured data in __Firebase RunTime DB__. The app uses modules from the https://github.com/mk590901/Authentication-with-Toit-Security project almost unchanged. Can also check out the https://github.com/mk590901/Authentication-with-Toit repository to brush up on your authentication knowledge.
+The movie below shows the contents of the cloud database. This data is automatically collected when measuring heart❤️rate using the  __r998372db.toit__
+
+## Movie
+
+[db.webm](https://github.com/user-attachments/assets/a549b548-352e-4ae1-b628-50c62ca06129)
+
 
 
 
