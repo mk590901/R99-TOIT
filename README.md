@@ -33,7 +33,7 @@ If the measured value is expected to have a timestamp, then it's necessary to so
 
 > This essentially concludes the description of the __r998372__ application. Below is a monitor log for two __ESP32 S3__ chips: the __ESP32 S3 WROOM-N16R8__ with 44 pins and __ESP32 S3 super-mini__ variants. Oddly enough, there's no significant difference, although I thought the mini was less reliable. It's worth noting the __ca = connect__ attempts parameter, which indicates the number of connection attempts to the device before performing a measurement. It's clear that this number is roughly the same for both chip variants.
 
-* _ESP32 S3 WROOM-N16R8__ log
+* __ESP32 S3 WROOM-N16R8__ log
   
 ```
 [jaguar] INFO: program ab8c3b05-36da-74ef-7336-f7322310292b started
